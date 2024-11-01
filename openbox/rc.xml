@@ -30,37 +30,37 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Liberation Mono Regular</name>
+      <name>Mono Sans</name>
       <size>11</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>Liberation Mono Regular</name>
+      <name>Mono Sans</name>
       <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
-      <name>Liberation Mono Regular</name>
+      <name>Mono Sans</name>
       <size>11</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>Liberation Mono Regular</name>
+      <name>Mono Sans</name>
       <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Liberation Mono Regular</name>
+      <name>Mono Sans</name>
       <size>11</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Liberation Mono Regular</name>
+      <name>Mono Sans</name>
       <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
