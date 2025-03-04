@@ -22,7 +22,7 @@ xfce4-power-manager &
 ## Start Compositing Manager
 exec picom &
 
-## Launch Polybar or Tint2
+## Launch Polybar
 bash ~/.config/openbox/themes/launch-bar.sh
 
 ## Notification Daemon
