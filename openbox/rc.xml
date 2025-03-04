@@ -125,16 +125,6 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
-    <keybind key="A-S-space">
-      <action name="ShowMenu">
-        <menu>client-list-combined-menu</menu>
-      </action>
-    </keybind>
-    <keybind key="C-A-space">
-      <action name="ShowMenu">
-        <menu>app-menu</menu>
-      </action>
-    </keybind>
     <!-- Action : NextWindow -->
     <keybind key="W-Tab">
       <action name="NextWindow">
@@ -171,18 +161,6 @@
       </action>
     </keybind>
     <!-- Action : GoToDesktop -->
-    <keybind key="C-A-Right">
-      <action name="GoToDesktop">
-        <to>next</to>
-        <wrap>yes</wrap>
-      </action>
-    </keybind>
-    <keybind key="C-A-Left">
-      <action name="GoToDesktop">
-        <to>previous</to>
-        <wrap>yes</wrap>
-      </action>
-    </keybind>
     <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
@@ -208,58 +186,12 @@
         <to>5</to>
       </action>
     </keybind>
-    <!-- Action : Add/Remove Desktop -->
-    <keybind key="W-equal">
-      <action name="AddDesktop">
-        <where>last</where>
-      </action>
-      <action name="Execute">
-        <command>dunstify -u low -h string:x-dunst-stack-tag:obaction "Added New Desktop"</command>
-      </action>
-    </keybind>
-    <keybind key="W-minus">
-      <action name="RemoveDesktop">
-        <where>last</where>
-      </action>
-      <action name="Execute">
-        <command>dunstify -u low -h string:x-dunst-stack-tag:obaction "Removed Last Desktop"</command>
-      </action>
-    </keybind>
     <!-- Action : ToggleShowDesktop -->
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
-    <!-- Action : Session -->
-    <keybind key="C-S-R">
-      <action name="Execute">
-        <command>dunstify -u low -h string:x-dunst-stack-tag:obaction "Configuration Reloaded!"</command>
-      </action>
-      <action name="Reconfigure"/>
-    </keybind>
-    <keybind key="C-S-BackSpace">
-      <action name="Restart"/>
-    </keybind>
-    <keybind key="C-A-Delete">
-      <action name="Exit">
-        <prompt>yes</prompt>
-      </action>
-    </keybind>
     <!-- ######## Window Actions ######## -->
     <!-- Action : SendToDesktop -->
-    <keybind key="W-S-Right">
-      <action name="SendToDesktop">
-        <to>next</to>
-        <wrap>yes</wrap>
-        <follow>yes</follow>
-      </action>
-    </keybind>
-    <keybind key="W-S-Left">
-      <action name="SendToDesktop">
-        <to>previous</to>
-        <wrap>yes</wrap>
-        <follow>yes</follow>
-      </action>
-    </keybind>
     <keybind key="S-W-1">
       <action name="SendToDesktop">
         <desktop>1</desktop>
@@ -309,40 +241,6 @@
         <x>20</x>
         <y>0</y>
       </action>
-    </keybind>
-    <!-- Action : ResizeRelative -->
-    <keybind key="W-C-Right">
-      <action name="ResizeRelative">
-        <right>20</right>
-      </action>
-    </keybind>
-    <keybind key="W-C-Left">
-      <action name="ResizeRelative">
-        <right>-20</right>
-      </action>
-    </keybind>
-    <keybind key="W-C-Down">
-      <action name="ResizeRelative">
-        <bottom>20</bottom>
-      </action>
-    </keybind>
-    <keybind key="W-C-Up">
-      <action name="ResizeRelative">
-        <bottom>-20</bottom>
-      </action>
-    </keybind>
-    <!-- Action: Interactive Move/Resize -->
-    <keybind key="W-A-m">
-      <action name="Execute">
-        <command>dunstify -u low -h string:x-dunst-stack-tag:obaction "Begin Interactive Moving"</command>
-      </action>
-      <action name="Move"/>
-    </keybind>
-    <keybind key="W-A-r">
-      <action name="Execute">
-        <command>dunstify -u low -h string:x-dunst-stack-tag:obaction "Begin Interactive Resizing"</command>
-      </action>
-      <action name="Resize"/>
     </keybind>
     <!-- Window Tiling: Snap feature -->
     <keybind key="W-h">
