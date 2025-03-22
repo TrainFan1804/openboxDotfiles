@@ -301,6 +301,27 @@
       <action name="Close"/>
     </keybind>
     <!-- ######## Actions: Execute ######## -->
+    <!-- Volume -->
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <command>ob-volume --inc</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <command>ob-volume --dec</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute">
+        <command>ob-volume --toggle</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioMicMute">
+      <action name="Execute">
+        <command>ob-volume --toggle-mic</command>
+      </action>
+    </keybind>
     <!-- Screenshot Keys -->
     <keybind key="Print">
       <action name="Execute">
